@@ -1,50 +1,146 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Package</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+<html data-bs-theme="light" lang="en">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Features-Cards-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top bg-dark navbar-dark">
+        <div class="container-fluid"><a class="navbar-brand d-md-none" href="#"><img src="assets/img/40b21aa8-4359-4cc2-b288-8b776e0c7000.png" width="100" height="100" alt="Logo"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse d-md-flex" id="navcol-1">
+                <ul class="navbar-nav d-flex justify-content-evenly mx-auto w-100">
+                    <li class="nav-item"><a class="nav-link text-center" href="#Grua_Motos"><i class="fas fa-motorcycle"></i>&nbsp;Grúa de Motos</a></li>
+                    <li class="nav-item"><a class="nav-link text-center" href="#Expresos"><i class="fas fa-shuttle-van"></i>&nbsp;Expresos</a></li>
+                    <li class="nav-item"><a class="nav-link text-center" href="#Mensajeria"><i class="fas fa-box-open"></i>&nbsp;Mensajeria</a></li>
+                </ul><a class="navbar-brand d-md-block me-0"><img src="assets/img/40b21aa8-4359-4cc2-b288-8b776e0c7000.png" width="100" height="100" alt="Logo" style="border-radius: 500px;">
+                    <div></div>
+                </a>
+                <ul class="navbar-nav d-flex justify-content-evenly mx-auto w-100">
+                    <li class="nav-item"><a class="nav-link text-center" href="#Tecnomecanica_Motos"><i class="fas fa-file-powerpoint"></i>&nbsp;Tecno Mecánica Motos</a></li>
+                    <li class="nav-item visually-hidden"><a class="nav-link text-center" href="#"><i class="fas fa-info-circle"></i>&nbsp;Info</a></li>
+                    <li class="nav-item pb-2 pb-md-0"><a class="nav-link text-nowrap text-center" href="https://api.whatsapp.com/send?phone=573229598212&amp;text=Hola!!%20Estoy%20Interesado%20en%20uno%20de%20sus%20servicios."><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-whatsapp">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+                            </svg>&nbsp;Contáctanos&nbsp;</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="Grua_Motos" style="background: var(--bs-body-color);">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 text-primary">
+                    <h1 class="display-4 text-light">Grúa de Motos</h1>
+                    <figure class="text-light">
+                        <blockquote class="blockquote">
+                            <p class="text-start mb-0">Nuestro servicio de grúa de motos está disponible las 24 horas para asistirte en cualquier emergencia en la carretera. Contamos con un equipo profesional y vehículos especializados para garantizar el transporte seguro y rápido de tu moto.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">MotoExpress Solution</figcaption>
+                    </figure>
+                    <div class="text-end"><a class="btn btn-outline-info" role="button" href="https://api.whatsapp.com/send?phone=573229598212&amp;text=Hola!!%20Estoy%20Interesado%20en%20uno%20de%20sus%20servicios.">Solicitar Servicio</a></div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7" style="background: url(&quot;assets/img/f2830fe6-0d4d-403b-99ce-0e8fb091d14d.png&quot;) top / cover no-repeat;height: 600px;">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Expresos">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7" style="background: url(&quot;assets/img/_6093a97a-5ccd-4962-8e8e-96b4ce0e5c75.jpeg&quot;) top / cover no-repeat;height: 600px;">
+                    <div></div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 text-primary" style="text-align: right;">
+                    <h1 class="display-4 text-dark">Expresos Regionales</h1>
+                    <figure class="text-light">
+                        <blockquote class="blockquote">
+                            <p class="text-end text-dark mb-0"><br>Disfruta de viajes cómodos y seguros con nuestros expresos regionales. Ofrecemos transporte familiar para vacaciones o eventos en diferentes regiones de Colombia, asegurando que tu experiencia sea placentera y sin preocupaciones.<br><br></p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">MotoExpress Solution</figcaption>
+                    </figure>
+                    <div class="text-end"><a class="btn btn-dark" role="button" href="https://api.whatsapp.com/send?phone=573229598212&amp;text=Hola!!%20Estoy%20Interesado%20en%20uno%20de%20sus%20servicios.">Solicitar Servicio</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Mensajeria-1">
+        <div class="container py-4 py-xl-5">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 class="display-5">Mensajería y Paquetería</h2>
+                    <p class="w-lg-50">Confía en nosotros para todas tus necesidades de mensajería y paquetería. Ya sea que necesites enviar documentos importantes o paquetes, nuestro equipo se asegura de que lleguen a tiempo y en perfectas condiciones.</p>
+                </div>
+            </div>
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <div class="bs-icon-md bs-icon-circle bs-icon-primary-light d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-boxes">
+                                    <path d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567zM7.5 9.933l-2.75 1.571v3.134l2.75-1.571zm1 3.134 2.75 1.571v-3.134L8.5 9.933zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134zM5.258 2.643 8 4.21l2.742-1.567L8 1.076zM15 9.933l-2.75 1.571v3.134L15 13.067zM3.75 14.638v-3.134L1 9.933v3.134z"></path>
+                                </svg></div>
+                            <h4 class="card-title">Envíos de Mercancía</h4>
+                            <p class="card-text">Realice ventas online y envíos el mismo día con nuestros envíos exprés</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <div class="bs-icon-md bs-icon-circle bs-icon-primary-light d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-cash-coin">
+                                    <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8m5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0"></path>
+                                    <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"></path>
+                                    <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1z"></path>
+                                    <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"></path>
+                                </svg></div>
+                            <h4 class="card-title">Cobro Contra Entrega</h4>
+                            <p class="card-text">Envíos de mercancía con cobro contra entrega</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <div class="bs-icon-md bs-icon-circle bs-icon-primary-light d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-clock">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"></path>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"></path>
+                                </svg></div>
+                            <h4 class="card-title">Velocidad &amp; Efectividad</h4>
+                            <p class="card-text">Nos comprometemos a realizar la entrega y el cobro el mismo día.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Tecnomecanica_Motos" style="background: var(--bs-body-color);margin-top: 120pt;height: 500pt;">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
+                    <div>
+                        <h2 class="text-uppercase fw-bold text-light mb-3">Tecno Mecanica para Motos</h2>
+                        <p class="text-light mb-4">Mantén tu moto en óptimas condiciones con nuestro servicio de tecno mecánica. Realizamos revisiones exhaustivas para asegurar que tu moto esté siempre lista para rodar de manera segura y eficiente.</p><a class="btn btn-outline-primary fs-5 py-2 px-4" role="button" href="https://api.whatsapp.com/send?phone=573229598212&amp;text=Hola!!%20Estoy%20Interesado%20en%20uno%20de%20sus%20servicios.">Contáctanos&nbsp;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center bg-dark">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-3"><img class="img-fluid" src="assets/img/40b21aa8-4359-4cc2-b288-8b776e0c7000.png" width="150px" height="150px"></div>
+                <div class="col-9 col-md-9 d-xl-flex align-items-xl-center">
+                    <h1 class="display-4 text-light">MotorExpress Solution</h1>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
-</body>
+
 </html>
